@@ -15,7 +15,6 @@ class MenuItem {
 }
 
 final List<MenuItem> menuItems = [
-  MenuItem(title: 'Home', subtitle: 'Home', route: '/', icon: Icons.home),
   MenuItem(
     title: 'Buttons',
     subtitle: 'Flutter buttons',
