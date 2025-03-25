@@ -38,7 +38,7 @@ class _MenuListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () {
-        // TODO: Navigate to the route
+        Navigator.pushNamed(context, menuItem.route);
       },
     );
   }
