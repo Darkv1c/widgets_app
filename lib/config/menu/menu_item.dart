@@ -27,4 +27,10 @@ final List<MenuItem> menuItems = [
     route: '/cards',
     icon: Icons.contact_mail,
   ),
+  MenuItem(
+    title: 'Progress Indicators',
+    subtitle: 'General and controlled',
+    route: '/progress-indicators',
+    icon: Icons.circle,
+  ),
 ];

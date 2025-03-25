@@ -19,5 +19,10 @@ final appRouter = GoRouter(
       name: CardsScreen.name,
       builder: (context, state) => CardsScreen(),
     ),
+    GoRoute(
+      path: '/progress-indicators',
+      name: ProgressScreen.name,
+      builder: (context, state) => ProgressScreen(),
+    ),
   ],
 );
