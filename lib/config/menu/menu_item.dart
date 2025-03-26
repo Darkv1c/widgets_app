@@ -33,4 +33,10 @@ final List<MenuItem> menuItems = [
     route: '/progress-indicators',
     icon: Icons.circle,
   ),
+  MenuItem(
+    title: 'Snackbars',
+    subtitle: 'Snackbars & dialogs',
+    route: '/snackbars',
+    icon: Icons.snapchat,
+  ),
 ];
