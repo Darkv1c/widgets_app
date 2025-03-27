@@ -51,4 +51,10 @@ final List<MenuItem> menuItems = [
     route: '/ui-controls',
     icon: Icons.control_point,
   ),
+  MenuItem(
+    title: 'Tutorial',
+    subtitle: 'App introduction',
+    route: '/tutorial',
+    icon: Icons.school,
+  ),
 ];
