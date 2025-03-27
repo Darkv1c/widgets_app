@@ -39,4 +39,10 @@ final List<MenuItem> menuItems = [
     route: '/snackbars',
     icon: Icons.snapchat,
   ),
+  MenuItem(
+    title: 'Animated container',
+    subtitle: 'animations',
+    route: '/animated-screen',
+    icon: Icons.animation,
+  ),
 ];
