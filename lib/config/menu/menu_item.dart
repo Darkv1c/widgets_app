@@ -45,4 +45,10 @@ final List<MenuItem> menuItems = [
     route: '/animated-screen',
     icon: Icons.animation,
   ),
+  MenuItem(
+    title: 'UI Controls',
+    subtitle: 'UI Controls Screen',
+    route: '/ui-controls',
+    icon: Icons.control_point,
+  ),
 ];
